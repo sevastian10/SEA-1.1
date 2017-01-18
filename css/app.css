@@ -1,0 +1,253 @@
+body {
+  background-color: #3d99f5;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Oswald', sans-serif;
+}
+
+.social-container {
+  background-color: #292c2f;
+}
+
+#logo-container .callout {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+#menu-container {
+  background-color: #3d99f5;
+  padding: 15px;
+}
+
+#menu-container li a {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+#menu-container li a:hover,
+#submenu-container li a:hover {
+  color: #45b9f7;
+}
+
+#submenu-container {
+  background-color: #3d99f5;
+  color: white;
+  border: 0;
+}
+
+#cursos-container {
+  padding: 1em 0;
+}
+
+#cursos-container,
+#cursos-container .tabs-panel,
+#cursos-container .tabs,
+#cursos-container .tabs .tabs-title
+#cursos-container .tabs .tabs-title.is-active a {
+  background-color: #a3aeba;
+  color: white;
+  border: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.tabs-content {
+  border: 0;
+}
+
+#cursos-container .tabs .tabs-title a {
+  font-size: 18px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+#cursos-container .tabs .tabs-title a:hover {
+  color: white;
+  background-color: #a3aeba;
+}
+
+.tabs-title {
+  display: inline-block;
+  float: none;
+}
+
+.footer {
+  background: #292c2f;
+}
+
+.row {
+  max-width: 1200px;
+  }
+
+  @charset "UTF-8";
+  .hero {
+    background: url("http://www.geografia.ufrj.br/wp-content/uploads/2015/05/bibliotecaexemp-b.jpg") no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  .hero h1, .hero h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+  }
+
+  .row {
+    max-width: 1200px; }
+
+    .footer {
+      background-color: #292c2f;
+      text-align: center;
+      font-size: 1.2rem;
+      padding: 4rem;
+      }
+
+      footer .contact {
+        list-style-type: none;
+        margin: 0;
+        text-align: left;
+        color: #fff;
+        }
+
+        .footer .contact li {
+          margin-bottom: 2rem;
+          }
+
+          .footer .contact li p {
+            padding-left: 5rem;
+          }
+
+          .footer .contact i {
+            position: absolute;
+            background-color: #33383b;
+            color: #fff;
+            font-size: 2rem;
+            border-radius: 50%;
+            line-height: 1;
+            margin: 0 0 0 -4rem;
+            vertical-align: middle;
+            padding: .25em .45em;
+            }
+
+            .footer .copywrite {
+              color: #8f9296;
+              font-size: 20px;
+              margin: 0 0 1rem 0;
+              }
+
+              .footer .about {
+                color: #92999f;
+                font-size: 20px;
+                margin: 0 0 1rem 0;
+                }
+
+                .footer .footer-links a {
+                  list-style: none;
+                  font-weight: normal;
+                  color: #fff;
+                  padding: 3rem 0 2rem;
+                  margin: 0;
+                  font-size: 20px;
+                  }
+
+                  .footer .footer-links a::after {
+                    content: "•";
+                    padding: 0 0.2rem 0 0.4rem;
+                    }
+
+                    .footer .footer-links a:last-child::after {
+                      content: "";
+                      padding: 0 0.4rem 0 0.8rem;
+                      }
+
+                      @media only screen and (min-width: 40.063em) {
+                        .footer p {
+                          text-align: left;
+                          }
+
+                          .footer .social {
+                            text-align: left;
+                            margin: 0;
+                            }
+
+                            .footer .contact {
+                              text-align: left;
+                              }
+
+                              .footer .contact > i {
+                                margin-right: 1rem;
+                                } }
+
+                                .logo {
+                                  color: #fff;
+                                  font-size: 1.5rem;
+                                  }
+
+                                  .logo i {
+                                    margin-right: 0.5rem;
+                                  }
+
+                                  .box {
+                                  border-radius: 3px;
+                                  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                                  padding: 10px 25px;
+                                  display: block;
+                                  margin-top: 100px;
+                                  padding-bottom: 1rem;
+                                  background-color: #292c2f;
+                                  color: white;
+                                  padding-top: 25px;
+                                  }
+
+
+                                    .box-icon span {
+                                      color: #fff;
+                                      display: table-cell;
+                                      text-align: center;
+                                      vertical-align: middle; }
+
+                                      .info h4 {
+                                        font-size: 30px;
+                                        letter-spacing: 2px;
+                                        text-transform: uppercase; }
+
+                                        .info p {
+                                          color: white;
+                                          font-size: 20 px;
+                                          padding-top: 10px; }
+
+                                          .info a {
+                                            border-radius: 2px;
+                                            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                                            transition: all 0.5s ease 0s; }
+
+                                            .info a:hover {
+                                              box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+                                              transition: all 0.5s ease 0s; }
+
+                                              #nada-container .callout {
+                                                background: #292c2f;
+                                                color: white;
+                                              }
+
+                                              #nada-container .nada1-container {
+                                                padding-bottom: 20px;
+                                                margin-top: 100px;
+                                              }
+
+.contenido {
+  margin: 20px;
+}
+
+.imagen {
+
+  margin-bottom: 100px;
+}
+
+.foto-i {
+  align-content: center;
+}
